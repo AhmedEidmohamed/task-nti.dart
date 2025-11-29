@@ -1,40 +1,4 @@
 
-// *******************************************************************************************************
-//  List<String> fizzBuzz(int n) {
-//   List<String> answer = [];
-
-//   for (int i = 1; i <= n; i++) {
-//     if (i % 3 == 0 && i % 5 == 0) {
-//       answer.add("FizzBuzz");
-//     } else if (i % 3 == 0) {
-//       answer.add("Fizz");
-//     } else if (i % 5 == 0) {
-//       answer.add("Buzz");
-//     } else {
-//       answer.add(i.toString());
-//     }
-//   }
-
-//   return answer;
-// }
-
-// void main() {
-//   print(fizzBuzz(3));   // ["1", "2", "Fizz"]
-//   print(fizzBuzz(5));   // ["1", "2", "Fizz", "4", "Buzz"]
-//   print(fizzBuzz(15));  // full FizzBuzz list
-// }
-// ****************************************************************************************
-// Future<String> fetchData() async {
-//   await Future.delayed(Duration(seconds: 2)); // Simulate network delay
-//   return "Data fetched successfully!";
-// }
-
-// void main() async {
-//   print("Fetching data...");
-//   String data = await fetchData();
-//   print(data); // Output: Data fetched successfully!
-// }
-//*****************************************************************************************************
 // import 'dart:io';
 
 // void main() {
@@ -164,4 +128,5 @@ void main() {
   print('the result = $result');
   print("Last two digits = $lastTwo");
 }
+
 

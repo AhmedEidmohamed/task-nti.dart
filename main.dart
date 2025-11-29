@@ -1,13 +1,4 @@
-// import 'dart:io';
 
-// void main() {
-//   print('enter your name');
-//   String? name = stdin.readLineSync();
-//   name is String ? print(name + 'is string') : print('${name} not string');
-//   print('enter your age');
-//   int? age = int.tryParse(stdin.readLineSync()!);
-//   age is int ? print( '${age} is int') : print('${age} not int');
-// }
 // *******************************************************************************************************
 //  List<String> fizzBuzz(int n) {
 //   List<String> answer = [];
@@ -173,3 +164,4 @@ void main() {
   print('the result = $result');
   print("Last two digits = $lastTwo");
 }
+
